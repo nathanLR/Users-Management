@@ -3,6 +3,7 @@ import { UserOutlined, MailOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setUsers } from "../features/users/usersSlice";
+import { useAppSelector } from "../app/hooks";
 
 const UsersForm = () => {
   // state for the form
@@ -13,7 +14,7 @@ const UsersForm = () => {
 
 
   const dispatch = useDispatch();
-
+  //let users: any = useAppSelector((state) => state.users.value);
   //submit form function 
   const handleSubmit = (event: any) => {
     fetch("http://localhost:5000/users", {
@@ -27,7 +28,11 @@ const UsersForm = () => {
       }),
     })
     .then(response => response.json())
-    .then(data => dispatch(setUsers(data)));
+    .then(data => dispatch(data))//error
+    // .then((data) => {
+    //   users = [...users, data];
+    //   dispatch(users)
+    // });
   };
 
 

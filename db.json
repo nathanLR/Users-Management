@@ -22,31 +22,25 @@
       "role": 1
     },
     {
-      "firstname": "samuel",
-      "lastname": "LE ROUX",
-      "email": "samsam@gmail.com",
+      "firstname": "Jacques",
+      "lastname": "CHIRAC",
+      "email": "jchirac@gouv.fr",
       "role": 2,
       "id": 4
     },
     {
-      "firstname": "Maman",
-      "lastname": "LE FOULGOC",
-      "email": "mj@outlook.com",
+      "firstname": "Franklin",
+      "lastname": "LA TORTUE",
+      "email": "lacets@hotmail.com",
+      "role": 2,
       "id": 5
     },
     {
-      "firstname": "gerard",
-      "lastname": "depardieux",
-      "email": "gege@laposte.net",
+      "firstname": "Akira",
+      "lastname": "TORIYAMA",
+      "email": "toriyama@jp.net",
       "role": 2,
       "id": 6
-    },
-    {
-      "firstname": "jean",
-      "lastname": "michel",
-      "email": "jm@jm.com",
-      "role": 1,
-      "id": 7
     }
   ]
 }
