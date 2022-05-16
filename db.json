@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Nathan",
+      "lastname": "LE ROUX",
+      "email": "nathan123@gmail.com",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "firstname": "Tom",
+      "lastname": "CRUISE",
+      "email": "tccascade@outlook.com",
+      "role": 3
+    },
+    {
+      "id": 3,
+      "firstname": "Père",
+      "lastname": "CASTOR",
+      "email": "hirsoire@laposte.net",
+      "role": 1
+    },
+    {
+      "firstname": "samuel",
+      "lastname": "LE ROUX",
+      "email": "samsam@gmail.com",
+      "role": 2,
+      "id": 4
+    },
+    {
+      "firstname": "Maman",
+      "lastname": "LE FOULGOC",
+      "email": "mj@outlook.com",
+      "id": 5
+    },
+    {
+      "firstname": "gerard",
+      "lastname": "depardieux",
+      "email": "gege@laposte.net",
+      "role": 2,
+      "id": 6
+    },
+    {
+      "firstname": "jean",
+      "lastname": "michel",
+      "email": "jm@jm.com",
+      "role": 1,
+      "id": 7
+    }
+  ]
+}
